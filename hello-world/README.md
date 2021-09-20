@@ -41,5 +41,8 @@ Pod가 잘 생성되었고 Pod의 Log를 확인해보자.
 
 Github에 hello-world.yaml 파일을 올리고 이를 ArgoCD에서 자동으로 배포하도록 하자.
 
+아래 첫번째 사진과 같이 Pod가 생성 되었고, 두번째 사진과 같이 Log에선 HelloWorld가 출력되었다. 하지만 위에서 본것과 같이 Complete와 CrashLoopBackOff가 반복된다.
 
+![argocd](./image/argocd.png)
 
+![argocd](./image/argocd-log.png)
